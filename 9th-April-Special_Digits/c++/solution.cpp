@@ -1,4 +1,5 @@
 
+
 const int N = 1e5+5;
 const int mod = 1e9+7;
 long long fact[N],invfact[N];
