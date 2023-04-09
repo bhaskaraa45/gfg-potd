@@ -1,4 +1,4 @@
-Class Solution {
+class Solution {
     static int mod =(int) 1e9 + 7;
     
     public static long nCr(int n ,int r ,int p){
