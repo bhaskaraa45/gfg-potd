@@ -56,6 +56,7 @@ class Solution {
                 if(good)
                 {
                     ans += ncr(n,i,mod);
+
                     ans %= mod;
                 }
             }
