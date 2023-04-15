@@ -11,15 +11,13 @@ class Solution
         int t = -1;
         int prevT=0;
         for(int i=0 ; i < n; i++){
-            int curr=1;
+          
             if(!list.contains(arr[i])){
                 list.add(arr[i]);
+              t++;
             }else{
-                curr = time[arr[i]-1];
+                t += time[arr[i]-1];
             }
-
-            t+= curr;
-
         }
 
         return t;
