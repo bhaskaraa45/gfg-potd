@@ -46,9 +46,6 @@ class Solution {
 
         static  int countStrings(long N) {
 
-            if (N == 2) return 3;
-            if (N == 1) return 2;
-
             return fib(N+2)%mod;
         }
 }
